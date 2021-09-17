@@ -23,7 +23,7 @@
 /****************************************************************************
  Function:		main
  
- Description:	Act as an exho server
+ Description:	Act as an echo server
  
  Parameters:	int argc: number of command line arguments
 							char **argv: the command line arguments
