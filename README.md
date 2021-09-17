@@ -7,7 +7,8 @@ In this lab you must write a local echo server using C sockets.  Your echo serve
 
 Read the file main.c  You will need to fill in code as described in each of the comments.  A rough outline of the code is below.  More instructions are listed in the source code:
 
-    • Fill out the sockaddr_in struct, address family and port.  The port number will be in argv[1]. The address should be INADDR_ANY.
+    • Fill out the sockaddr_in struct, address family and port.  The port number will be in argv[1]. 
+      The address should be INADDR_ANY.
     • Create a TCP socket. (socket)
     • Bind the socket to the port (bind)
     • Wait for an incoming connection.  Set the backlog to 10. (listen)
